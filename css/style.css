@@ -1,0 +1,37 @@
+body {
+	background-image: url("../img/ocean.jpg");
+	background-size: cover;
+	height: 3000px;
+	width: 3000px;
+}
+
+#title {
+	position: fixed;
+	font-family: sans-serif;
+	font-size: 50px;
+	top: 0px;
+	margin: 0px;
+}
+
+#footer {
+	position: fixed;
+	top: 630px;
+	text-align: center;
+	width: 100vw;
+	padding: 15px;
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+	opacity: 0.8;
+	margin: 0px;
+}
+
+.mygif {
+	position: fixed;
+	top: 300px;
+	left: 300px;
+}
+
+.bowser {
+	height: 50px;
+}
