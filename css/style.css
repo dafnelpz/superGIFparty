@@ -37,15 +37,23 @@ h1 {
 .link {
 	color: black;
 	font-family: sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
 	text-decoration: none;
+}
+
+.link:hover {
+	color: #6f00ff;
 }
 
 .mygif {
 	position: fixed;
 	top: 30vh;
 	left: 40vw;
+}
+
+.mygif img {
+	height: 300px;
 }
 
 .bowser {
@@ -61,8 +69,8 @@ h1 {
 
 .kirby {
 	position: relative;
-	top: 300px;
-	left: 2300px;
+	top: 900px;
+	left: 2000px;
 	z-index: -10;
 }
 
@@ -89,13 +97,13 @@ h1 {
 }
 
 .mario img {
-	height: 230px;
+	height: 300px;
 }
 
 .zim {
 	position: absolute;
 	top: 1500px;
-	left: 2000px;
+	left: 1200px;
 	z-index: -10;
 }
 
