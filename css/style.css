@@ -3,6 +3,8 @@ body {
 	background-size: cover;
 	height: 3000px;
 	width: 3000px;
+	padding: 0px;
+	margin: 0px;
 }
 
 #title {
@@ -11,25 +13,33 @@ body {
 	font-size: 30px;
 	top: 0px;
 	margin: 0px;
+	padding: 0px;
+	margin-left: 20px;
 }
 
 #footer {
 	position: fixed;
-	top: 630px;
+	bottom: 0px;
 	text-align: center;
 	width: 100vw;
 	padding: 15px;
-	background-color: white;
+	background-color: black;
+	opacity: 0.6;
+	margin: 0px;
+}
+
+.link {
+	color: white;
 	font-family: sans-serif;
 	font-size: 16px;
-	opacity: 0.8;
-	margin: 0px;
+	text-align: center;
+	
 }
 
 .mygif {
 	position: fixed;
-	top: 300px;
-	left: 300px;
+	top: 30vh;
+	left: 40vw;
 }
 
 .bowser {
@@ -39,6 +49,10 @@ body {
 	z-index: -10;
 }
 
+.bowser img {
+	height: 230px;
+}
+
 .kirby {
 	position: relative;
 	top: 300px;
@@ -46,15 +60,42 @@ body {
 	z-index: -10;
 }
 
-.link {
+.kirby img {
+	height: 230px;
+}
+
+.algo {
 	position: absolute;
 	top: 1000px;
 	left: 500px;
 	z-index: -10;
 }
 
+.algo img {
+	height: 230px;
+}
 
+.mario {
+	position: absolute;
+	top: 2000px;
+	left: 300px;
+	z-index: -10;
+}
 
+.mario img {
+	height: 230px;
+}
+
+.zim {
+	position: absolute;
+	top: 1500px;
+	left: 2000px;
+	z-index: -10;
+}
+
+.zim img {
+	height: 230px;
+}
 
 
 
